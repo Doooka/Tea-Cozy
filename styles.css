@@ -1,0 +1,176 @@
+* {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 22px;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    height: 69px;
+    width: 100%;
+}
+
+#header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+}
+
+#logo {
+    height: 50px;
+}
+
+#logo img {
+    height: 50px;
+}
+
+#navbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    padding-inline-start: 0px;
+    margin: 0;
+}
+
+#navbar nav ul li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    
+}
+
+main {
+    margin: 0px 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    margin: 0px 40px;
+}
+
+#mission {
+    margin-top: 69px;
+}
+
+#mission-image-container {
+    background-image: url("src/img/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tea-of-the-month {
+    padding-top: 69px;
+    width: 1000px;
+}
+
+#locations {
+    padding-top: 69px;
+    width: 100%
+}
+
+#locations-background-image {
+    background-image: url("src/img/img-locations-background.jpg");
+    background-size: contain;
+    margin: 0 auto;
+    height: 500px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#locations-heading-container {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#locations-heading-container * {
+    background-color: transparent;
+    margin: 0;
+}
+
+#location-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 15px;
+    opacity: 1;
+}
+
+.location-tile {
+    margin: 0 40px;
+    width: 300px;
+    opacity: 1;
+}
+
+.location-tile * {
+    opacity: 1;
+}
+
+#banner {
+    height: fit-content;
+    width: 100%;
+}
+
+.image-tile {
+    margin: 0 10px;
+}
+
+.image-tile img {
+    width: 300px;
+    height: 200px;
+}
+
+.image-tile h3 {
+    margin-top: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#contact-details {
+    height: 200px;
+}
+
+footer {
+    float: left;
+    margin-left: 20px;
+}
