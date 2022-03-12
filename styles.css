@@ -101,7 +101,6 @@ footer {
 
 #locations-background-image {
     background-image: url("src/img/img-locations-background.jpg");
-    background-size: contain;
     margin: 0 auto;
     height: 500px;
     max-width: 1200px;
